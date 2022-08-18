@@ -1,5 +1,5 @@
 {
-    "name": "dicr/yii2-json",
+    "name": "kiyonxxx/yii2-json",
     "type": "yii2-extension",
     "license": "MIT",
     "description": "Модель данных Json для Yii2",
@@ -29,13 +29,13 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": "~7.4 || ~8.0.1",
+        "php": ">=7.4",
 
         "ext-json": "*",
 
         "yiisoft/yii2": "~2.0",
 
-        "dicr/yii2-validate": "~2.3"
+        "kiyonxxx/yii2-validate": "1.0.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
